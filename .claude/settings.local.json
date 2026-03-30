@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__laravel-boost__application-info",
+      "Bash(php artisan:*)",
+      "Bash(composer require:*)",
+      "Bash(vendor/bin/pint --dirty --format agent)",
+      "mcp__laravel-boost__database-schema",
+      "Bash(taskkill /F /IM php.exe)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "laravel-boost"
+  ]
+}
