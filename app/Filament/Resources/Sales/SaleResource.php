@@ -12,6 +12,7 @@ use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Tables\Table;
+use UnitEnum;
 
 class SaleResource extends Resource
 {
@@ -21,7 +22,7 @@ class SaleResource extends Resource
 
     protected static ?string $navigationLabel = 'Sales';
 
-    protected static string|BackedEnum|null $navigationGroup = 'Sales';
+    protected static string|UnitEnum|null $navigationGroup = 'Sales';
 
     protected static ?int $navigationSort = 1;
 
